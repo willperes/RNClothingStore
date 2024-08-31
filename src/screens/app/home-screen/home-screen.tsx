@@ -1,6 +1,7 @@
 import React from 'react';
-import { View } from 'react-native';
+
+import { Box } from '@/components';
 
 export function HomeScreen() {
-  return <View style={{ flex: 1, backgroundColor: '#1D182A' }} />;
+  return <Box flex={1} bg={'mainBackground'} />;
 }
