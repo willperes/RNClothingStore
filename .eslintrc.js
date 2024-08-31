@@ -1,6 +1,10 @@
 module.exports = {
   root: true,
   extends: '@react-native',
+  plugins: ['import'],
+  rules: {
+    'react-native/no-inline-styles': 'off',
+  },
   overrides: [
     {
       files: ['*.ts', '*.tsx'],
